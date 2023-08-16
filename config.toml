@@ -1,8 +1,8 @@
 # do NOT include a trailing slash on the base URL for web urls
-base_url = "https://abridge.netlify.app"
+base_url = "https://0x61nas.github.io"
 #base_url = "/home/jieiku/.dev/abridge/public/" # for locally usable build directly from disk, also set in [extra] section uglyurls = true
-title = "Abridge"
-description = "Abridge is a fast and lightweight Zola theme using semantic html, abridge.css class-light CSS, and No Mandatory JS."
+title = "Anas"
+description = "Some random stuff"
 default_language = "en"
 output_dir = "public"
 compile_sass = true
@@ -30,7 +30,7 @@ include_content = true      # include rendered content of page/section in index
 highlight_code = true
 highlight_theme = "css"
 
-render_emoji = false
+render_emoji = true
 external_links_target_blank = true # rel="noopener"
 external_links_no_follow = false   # rel="nofollow"
 external_links_no_referrer = false # rel="noreferrer"
@@ -42,12 +42,12 @@ language_code = "en-US"
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
 # To disable title_addition but keep built in page additions eg, Posts page: "Posts | Abridge" set title_addition to an empty string
 # To always set the page title exactly eg "Abridge" then comment out the below line (not recommend, bad for SEO)
-title_addition = "Fast & Lightweight Zola Theme" # a default value for title addition
+title_addition = "Lifeless person" # a default value for title addition
 recent = true # TOC / index
-recent_items = 9
-author = "Jake G" # Put Your Name here
+recent_items = 20
+author = "0x61nas" # Put Your Name here
 
-title_size_index = "s85" # size: s95, s90, s85, s80, s75, s70, false(full size)
+title_size_index = "s95" # size: s95, s90, s85, s80, s75, s70, false(full size)
 meta_index = { position="bottom", size="s90", author=false, readtime=false, readstring="min", date=true, categories_tags=true, divider=" " }
 meta_post = { position="top", size="s95", author=true, readtime=false, readstring="min read", date=true, categories_tags=true, divider=" " }
 ## position: top, bottom, both, false(hidden) ## size: s95, s90, s85, s80, s75, s70, false(full size)
@@ -62,8 +62,8 @@ footer_credit = true
 #textlogo = '<font color="#f90">A</font>bridge'
 textlogo = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#f90" viewBox="0 0 96 96" width="32" height="32"><path stroke-width="14" d="M14 99 46 7h4l32 92"/><path stroke-width="9" d="M-3 82c43-26 59-26 102 0"/><path stroke-linecap="round" stroke-width="1.5" d="M94 72v7m-5-9.8v7m-5-9.8v7.1M79 64v7M63 57.7v7m-5-8.2v7m-5-7.8v7m-5-7.2v7m-5-6.7v7m-5-6.3v7m-5-5.8v7M17 64v7m-5-4.6v7m-5-4.2v7M2 72v7"/></svg>bridge'
 
-sitedesc = false # enables or disables the display of the site description below the logo.
-#copyright_start_year = 2019  # optional
+sitedesc = true # enables or disables the display of the site description below the logo.
+copyright_start_year = 2023  # optional
 #copyright_end_year = 2020  # optional, recommend leaving unset, zola build will set this to current year by default
 headhr = false # show or hide horizontal rule below header
 foothr = true # show or hide horizontal rule above footer
@@ -73,6 +73,7 @@ menu = [
     {url = "/posts/", name = "Posts", slash = true, blank = false},
     {url = "/categories/", name = "Categories", slash = true, blank = false},
     {url = "/tags/", name = "Tags", slash = true, blank = false},
+    {url = "/cv/", name = "CV", slash = true, blank = false},
 ]
 menu_footer = [
     {url = "/about/", name = "About", slash = true, blank = false},
@@ -187,8 +188,8 @@ katex_bundle = "katexbundle.min.js"
 ##########################
 # meta/seo/analytic tags
 ##########################
-keywords = "Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
-twitter = "your-user-name" # used for twitter related
+keywords = "Anas, Anas Elgary, Software Engineer" # used for the primary site index
+twitter = "0x61nas" # used for twitter related
 #google = "Your Google Site verification code."
 #bing = "Your Bing Site verification code."
 seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twitter
@@ -197,25 +198,25 @@ seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twit
 [extra.social]
 feed = true
 mail_encode = true # This obfuscates your email address, javascript is used to decode it at page load.
-mail = "name@example.com"
-mastodon = "@your-user-name"
-element = "matrix.example.com"
+mail = "0x61nas@proton.me"
+mastodon = "@0x61nas@fosstodon.org"
+#element = "matrix.example.com"
 #matrix = "matrix.example.com"
-buymeacoffee = "your-user-name"
-discord = "your-discord" # Everything after https://discord.com/   eg: invite/my-server  *or*  servers/my-server-id
-twitter = "your-user-name"
-facebook = "your-user-name"
-linkedin = "your-user-name"
-gitlab = "your-user-name"
-github = "your-user-name"
-codeberg = "your-user-name" # Everything after https://codeberg.org/   eg: username  *or*  username/repository
-github_sponsor = "your-user-name"
-bitbucket = "your-user-name"
-python = "your-user-name"
-docker = "your-user-name"
-stack = "your-user-name"
-instagram = "your-user-name"
-pinterest = "your-user-name"
-twitch = "your-user-name"
-youtube = "channel/your-channel-id"
-researchgate = "your-profile-id"
+buymeacoffee = "0x61nas"
+discord = "users/1108054766912819343" # Everything after https://discord.com/   eg: invite/my-server  *or*  servers/my-server-id
+twitter = "0x61nas"
+#facebook = "your-user-name"
+linkedin = "anas-elgary"
+gitlab = "anas-elgary"
+github = "0x61nas"
+codeberg = "anas-elgary" # Everything after https://codeberg.org/   eg: username  *or*  username/repository
+github_sponsor = "0x61nas"
+bitbucket = "0x61nas"
+#python = "0x61nas"
+docker = "0x61nas"
+stack = "0x61nas"
+instagram = "0x61nas"
+pinterest = "anaselgary"
+twitch = "anas_elgary"
+youtube = "channel/UCU9xioPeUuFLZzQJ2nsDhfA"
+#researchgate = "your-profile-id"
