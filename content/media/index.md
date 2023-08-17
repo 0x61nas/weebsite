@@ -24,6 +24,16 @@ All the CVs/Resumes files are tracked with `git` in [0x61nas/cv](https://github.
 * The full detailed(for now) resume [anas-elgarhy-resume_2023-07-12.pdf](/cv/rxresume/anas-elgarhy-resume_2023-07-12.pdf)
 > I try to keep the pdf updated as much as I can. but sometimes things that aren't in our plans happen :\\, so you can see the [live version](https://rxresu.me/r/ffes5mXD) as long as the [rxresu.me](https://rxresu.me) website is UP. 
 
+### Music
+I don't make music(yet). but I have a bit strange, open-mind, closed-mind, raucous, quiet musical sense(all at the same time)
+
+* random [traks that I just love](traks-i-love) and want to share it with someone.
+* [My playlists](music-playlists)
+* [OpenBSD songs](https://ftp.openbsd.org/pub/OpenBSD/songs)
+* [My Spotify account](https://open.spotify.com/user/rdi4jef2agjun6i9uie7nnu34)
+
+
+
 ### Memes
 * Memes
 * Memes templates
