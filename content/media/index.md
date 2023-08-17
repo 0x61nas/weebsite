@@ -1,0 +1,31 @@
++++
+title = "Media"
+description = "Yo, am from gen-z also!"
+date = 2023-08-17
+draft = false
+
+[taxonomies]
+categories = ["Media", "Assets"]
+[extra]
+toc = true
+keywords = "memes, anime, cats, reactions, gifs, images"
+thumbnail = "ferris-gesture.png"
++++
+
+### CV/Resume
+All the CVs/Resumes files are tracked with `git` in [0x61nas/cv](https://github.com/0x61nas/cv)
+
+#### AST compatible
+* Nothing here yet
+
+#### RxResume
+>The resumes that I build with the [Reactive Resume Builder](https:///rxresu.me).
+
+* The full detailed(for now) resume [anas-elgarhy-resume_2023-07-12.pdf](/cv/rxresume/anas-elgarhy-resume_2023-07-12.pdf)
+> I try to keep the pdf updated as much as I can. but sometimes things that aren't in our plans happen :\\, so you can see the [live version](https://rxresu.me/r/ffes5mXD) as long as the [rxresu.me](https://rxresu.me) website is UP. 
+
+### Memes
+* Memes
+* Memes templates
+
+### Anime
