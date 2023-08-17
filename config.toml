@@ -73,7 +73,6 @@ menu = [
     {url = "/posts/", name = "Posts", slash = true, blank = false},
     {url = "/categories/", name = "Categories", slash = true, blank = false},
     {url = "/tags/", name = "Tags", slash = true, blank = false},
-    {url = "/cv/", name = "CV", slash = true, blank = false},
     {url = "/media/" , name = "Media", slash = true, blank = false},
 ]
 menu_footer = [
