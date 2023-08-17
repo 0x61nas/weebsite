@@ -27,8 +27,8 @@ All the CVs/Resumes files are tracked with `git` in [0x61nas/cv](https://github.
 ### Music
 I don't make music(yet). but I have a bit strange, open-mind, closed-mind, raucous, quiet musical sense(all at the same time)
 
-* random [traks that I just love](traks-i-love) and want to share it with someone.
-* [My playlists](music-playlists)
+* random [traks that I just love](music/traks-i-love) and want to share it with someone.
+* [My playlists](music/music-playlists)
 * [OpenBSD songs](https://ftp.openbsd.org/pub/OpenBSD/songs)
 * [My Spotify account](https://open.spotify.com/user/rdi4jef2agjun6i9uie7nnu34)
 
@@ -39,3 +39,5 @@ I don't make music(yet). but I have a bit strange, open-mind, closed-mind, rauco
 * Memes templates
 
 ### Anime
+
+
