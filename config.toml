@@ -80,7 +80,9 @@ menu_footer = [
     {url = "/about/", name = "About", slash = true, blank = false},
     {url = "/contact/", name = "Contact", slash = true, blank = false},
     {url = "/privacy/", name = "Privacy", slash = true, blank = false},
+    {url = "/anas.elgarhy.dev@gmail.com_gpg_key.asc", name = "GPG", slash = false, blank = false},
     {url = "/sitemap.xml", name = "Sitemap", slash = false, blank = true},
+    {url = "/atom.xml", name = "RSS", slash = false, blank = true},
 ]
 
 # Security Headers should preferably be set by your webserver (Nginx, Apache) https://observatory.mozilla.org  https://csp-evaluator.withgoogle.com/
