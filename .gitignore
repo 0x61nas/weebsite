@@ -1,2 +1,5 @@
 # Ignore the build directory
 public/
+
+# Ignore the jetbrains config dir
+.idea/
