@@ -1,6 +1,6 @@
 +++
 title = "Media"
-description = "Yo, am from gen-z also!"
+description = "The none text stuff that I wanna share with you"
 date = 2023-08-17
 draft = false
 
@@ -8,7 +8,7 @@ draft = false
 categories = ["Media", "Assets"]
 [extra]
 toc = true
-keywords = "memes, anime, cats, reactions, gifs, images"
+keywords = "cv, memes, anime, cats, reactions, gifs, images, reddit posts"
 thumbnail = "ferris-gesture.png"
 +++
 
