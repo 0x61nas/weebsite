@@ -51,4 +51,4 @@ jobs:
           check_filenames: true
           check_hidden: true
           ignore_words_file: .codespellignore
-          skip: target,.git
+          skip: target,.git,*.asc,*.svg
