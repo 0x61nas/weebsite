@@ -1,6 +1,6 @@
 +++
 title = "Media"
-description = "Yo, am from gen-z also!"
+description = "The none text stuff that I wanna share with you"
 date = 2023-08-17
 draft = false
 
@@ -8,7 +8,7 @@ draft = false
 categories = ["Media", "Assets"]
 [extra]
 toc = true
-keywords = "memes, anime, cats, reactions, gifs, images"
+keywords = "cv, memes, anime, cats, reactions, gifs, images, reddit posts"
 thumbnail = "ferris-gesture.png"
 +++
 
@@ -27,7 +27,7 @@ All the CVs/Resumes files are tracked with `git` in [0x61nas/cv](https://github.
 ### Music
 I don't make music(yet). but I have a bit strange, open-mind, closed-mind, raucous, quiet musical sense(all at the same time)
 
-* random [traks that I just love](music/traks-i-love) and want to share it with someone.
+* random [tracks that I just love](music/tracks-i-love) and want to share it with someone.
 * [My playlists](music/music-playlists)
 * [OpenBSD songs](https://ftp.openbsd.org/pub/OpenBSD/songs)
 * [My Spotify account](https://open.spotify.com/user/rdi4jef2agjun6i9uie7nnu34)

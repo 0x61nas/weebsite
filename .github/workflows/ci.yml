@@ -1,0 +1,54 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+  push:
+    branches:
+      - aurora
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  zola-check:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+      - name: Run zola check
+        uses: MTRNord/zola-check-manager@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        if: github.event_name != 'pull_request'
+        uses: actions/checkout@v3
+      - name: Checkout the repository
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Run committed
+        uses: crate-ci/committed@master
+        with:
+          args: "-vv"
+          commits: "HEAD"
+
+      - name: Run lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: -v *.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run codespell
+        uses: codespell-project/actions-codespell@master
+        with:
+          check_filenames: true
+          check_hidden: true
+          ignore_words_file: .codespellignore
+          skip: target,.git
