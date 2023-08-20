@@ -1,6 +1,8 @@
 #!/usr/bin/env just --justfile
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
+_draft_repo := "git@bitbucket.org:0x61nas-weebsite/weebsite.git"
+_origin_repo := "git@github.com:0x61nas/weebsite.git"
 _description := "A new blog post"
 
 alias s := serve
