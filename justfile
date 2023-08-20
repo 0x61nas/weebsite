@@ -34,6 +34,16 @@ post title description=_description:
     # open the post in the editor
     $EDITOR {{justfile_directory()}}/content/$directory/index.md
 
+# Push the changes to all remotes. [WARNING] don't use this when u workin on a secret branch. call `git push` manually
+push:
+    #!/usr/bin/env sh
+    set -euxo pipefail
+    remotes=$(git remote)
+    for remote in $remotes; do
+        git push $remote
+    done
+    # Reset the upstream remote to origin(github)
+    git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
 
 # Build the website and serve it
 serve:
