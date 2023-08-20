@@ -144,7 +144,7 @@ foothr = true # show or hide horizontal rule above footer
 copyright_start_string = "©"
 copyright_start_year = 2023  # optional
 #copyright_end_year = "" # optional, recommend leaving unset, zola build will set this to current year by default, can use empty string to omit the year.
-copyright_entity = "Anas Elgarhy." # optional, if omited then the config.title is used.
+copyright_entity = "Anas Elgarhy." # optional, if omitted then the config.title is used.
 # copyright_end_string = 'Unless otherwise noted, the content in this website is available under the <a href="http://creativecommons.org/licenses/by-nd/3.0/">CC BY-ND 3.0</a> license.'
 
 ###############################################################################
