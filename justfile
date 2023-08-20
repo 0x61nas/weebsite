@@ -46,8 +46,8 @@ push:
     git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
 
 # Build the website and serve it
-serve:
-    zola serve
+serve *args:
+    zola serve {{args}}
 
 # Remove the old output directory and serve
 serve-fresh: clean serve
