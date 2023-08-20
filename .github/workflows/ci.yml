@@ -10,7 +10,7 @@ on:
 
 jobs:
   zola-check:
-    name: Build
+    name: Check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
@@ -18,7 +18,8 @@ jobs:
       - name: Run zola check
         uses: MTRNord/zola-check-manager@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          annotation-level: notice
   lint:
     name: Lint
     runs-on: ubuntu-latest
