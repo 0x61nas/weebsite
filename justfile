@@ -22,15 +22,15 @@ post title description=_description:
     # Create the post file
     cp {{justfile_directory()}}/templ/post.md {{justfile_directory()}}/content/$directory/index.md
     # Patch the template
-    sed -i '' -E "s/DATE/$date/g" {{justfile_directory()}}/content/$directory/index.md
-    sed -i '' -E "s/TITLE/{{title}}/g" {{justfile_directory()}}/content/$directory/index.md
-    sed -i '' -E "s/DESCRIPTION/{{description}}/g" {{justfile_directory()}}/content/$directory/index.md
+    sed -i -E "s/DATE/$date/g" {{justfile_directory()}}/content/$directory/index.md
+    sed -i -E "s/TITLE/{{title}}/g" {{justfile_directory()}}/content/$directory/index.md
+    sed -i -E "s/DESCRIPTION/{{description}}/g" {{justfile_directory()}}/content/$directory/index.md
     # Record the changes
-    git add {{justfile_directory()}}/content/$directory/index.md
+    git add content/$directory/index.md
     # Commit the changes
-    git commit -m -S "feat(post): create {{title}} post"
+    git commit -S -m "feat(post): create {{title}} post"
     # Push the changes
-    git push --set-upstream draft "post/$directory"
+    git push --set-upstream draft post/$directory
     # open the post in the editor
     $EDITOR {{justfile_directory()}}/content/$directory/index.md
 
@@ -46,8 +46,8 @@ push:
     git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
 
 # Build the website and serve it
-serve:
-    zola serve
+serve *args:
+    zola serve {{args}}
 
 # Remove the old output directory and serve
 serve-fresh: clean serve
