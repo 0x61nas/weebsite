@@ -36,7 +36,7 @@ post title description=_description:
     # open the post in the editor
     $EDITOR {{justfile_directory()}}/content/$directory/index.md
 
-# Push the changes to all remotes. [WARNING] don't use this when u workin on a secret branch. call `git push` manually
+# Push the changes to all remotes. [WARNING] don't use this when u working on a secret branch. call `git push` manually
 push:
     #!/usr/bin/env sh
     set -euxo pipefail
